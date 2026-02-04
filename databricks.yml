@@ -1,0 +1,14 @@
+bundle:
+  name: example_asset_bundle
+
+workspace:
+  host: https://dbc-c256232b-1ff6.cloud.databricks.com
+
+targets:
+  dev:
+    mode: development
+    workspace:
+      root_path: /Workspace/Users/devadharshini0167/dev/.bundle/dev
+
+include:
+  - resources/*.yml
