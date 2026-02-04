@@ -1,8 +1,10 @@
 resources:
   jobs:
-    example_job:
-      name: Example Asset Bundle Job
+    sql_bundle_job:
+      name: sql-bundle-job
       tasks:
-        - task_key: run_example
-          notebook_task:
-            notebook_path: notebooks/example_notebook.py
+        - task_key: run_sql_task
+          sql_task:
+            warehouse_id: c83a9082a70ed091
+            query:
+              query_id: 2032793041886556
